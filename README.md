@@ -2,9 +2,9 @@ The Project List UI is built using React and Tailwind CSS, following a modular a
 
 The app consists of:
 
-Main Layout – Sidebars, Navigation, and Project List.
-Project List – Displays project cards with details.
-AI Assistant Panel – Shows insights and team availability.
+Main Layout – Sidebars, Navigation, and Project List.\n
+Project List – Displays project cards with details.\n
+AI Assistant Panel – Shows insights and team availability.\n
 Reusable Components – Buttons, Cards, and Filters.
 
 Approach:
