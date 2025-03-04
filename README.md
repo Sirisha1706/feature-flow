@@ -1,34 +1,21 @@
-# React + TypeScript + Vite
+The Project List UI is built using React and Tailwind CSS, following a modular and reusable component-based approach. The goal is to create a dashboard-style interface that displays project details, status, team members, and AI insights.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The app consists of:
 
-Currently, two official plugins are available:
+Main Layout – Sidebars, Navigation, and Project List.
+Project List – Displays project cards with details.
+AI Assistant Panel – Shows insights and team availability.
+Reusable Components – Buttons, Cards, and Filters.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Approach:
+1.Uses dummy JSON data for projects, team members, and AI insights.
 
-## Expanding the ESLint configuration
+Dependencies:
+react	Core library for building the UI.
+react-dom Enables React to render in the browser.
+tailwindcss	Utility-first CSS framework for styling.
+postcss & autoprefixer	Required for Tailwind CSS processing.
+flowbite-react	Provides pre-built UI components for faster development.
+vite	Fast build tool for React.
+eslint & prettier	Ensures code quality and formatting.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-
-
-# feature-flow
-# feature-flow
